@@ -1,0 +1,90 @@
+
+
+
+/*esto solo es un comentario*/
+/*La estructura de la sintaxis de CSS es la siguiente:
+1 - Selector {hay varios tipos} que nos va a permitir decirle a nuestro
+programa, a que elemento del HTML tiene que aplicarle estilos nuestro CSS
+2- Abrir {} para contener todos los estilos que queremos aplicarle al elemento HTML
+3- Dentro de las  {} vamos a escribir una propiedad y un valor, color = black 
+
+Selector {
+    color: black
+}
+ La primera forma de darle estilos a un elemento de HTML con CSS es directamente
+ llamado a la etiqueta*/
+
+ header {
+    background-color: rgb(175, 175, 175); /* El nombre en ingles, RGB, RGBA, HSL, Hexadecimal */
+ }
+
+ a {
+    color: yellow;
+ }
+ /* class que nos permite individualizar el elemento para que los estilos solo
+ se le aplique a el 1 agregamos un punto delante del nombre de la clase porque ese es el simbolo
+ que le indica a CSS que estamos tratando con una class */
+
+ /* ID # | la diferencia de usar ID es que no se puede reutilizar */
+
+ .home {
+    color: brown;
+ }
+ #nosotros {
+    background-color: aquamarine;
+ }
+
+ /* CSS significa hoja de cascada de estilos */
+
+ /* h1 {
+    font-size: 26px;
+  }
+   */
+
+   h1 {
+    font-size: 26px;
+  }
+
+  /* Estilos varios */
+
+a {
+    text-decoration: none;
+    color: coral;
+
+}
+ p, h1 {
+    color:chocolate;
+    background-color: antiquewhite;
+ }
+
+ /* Unidad de medida | existen como tal para brindar un valor o tamaño a un objeto | 
+ unidades absolutas y unidades relativas
+ 
+ Absoluta PX = pixeles
+ font-size: 30px;
+ 
+ Relativas (flexibles) | Nos ayuda con el diseño responsive 
+ (adapta a distintos tipos de dispositivos)
+ %, em, rem, ex
+ 
+ */
+.img {
+    width: 100%;
+    height: 80%;
+    /* se utiliza más en width y height */
+
+}
+
+.texto {
+    font-size: 30px;
+    
+/* px se utiliza mucho en texto, encabezados | se va a usar
+cuando necesiten que un elemento mantenga su tamaño siempre igual */
+
+
+}
+
+
+/* unidades deñ viewport | ventana del navegador
+vh, vw
+viewport height, viewport width */
